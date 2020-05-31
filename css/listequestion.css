@@ -1,0 +1,314 @@
+
+
+/*//////////////////////////////////////////////////////////////////
+[ FONT ]*/
+
+@font-face {
+  font-family: Ubuntu-Regular;
+  src: url('../fonts/ubuntu/Ubuntu-Regular.ttf'); 
+}
+
+@font-face {
+  font-family: Ubuntu-Bold;
+  src: url('../fonts/ubuntu/Ubuntu-Bold.ttf'); 
+}
+
+@font-face {
+  font-family: JosefinSans-Bold;
+  src: url('../fonts/JosefinSans/JosefinSans-Bold.ttf'); 
+}
+
+
+
+/*//////////////////////////////////////////////////////////////////
+[ RESTYLE TAG ]*/
+
+* {
+  margin: 0px; 
+  padding: 0px; 
+  box-sizing: border-box;
+}
+
+
+body {
+  width: 100%;
+  background-color:#404040;
+  
+    height: auto;
+  font-family: Ubuntu-Regular, sans-serif;
+}
+
+#cont {
+
+background-image:url("../images/bgim.jpg") ; 
+ width: 70%;
+ height: auto; 
+ margin-top: 2%;
+  margin-left: 15%;
+
+/* margin:auto;*/
+ 
+}
+.container-fluid {
+  background-color: white;
+  height: 625px;
+  width: 90%;
+
+}
+.haut {
+  background-color:#0D263D;
+    height: 75px;
+}
+.haut span {
+  position: relative;
+  color: #fff;
+  font-weight: bold;
+  font-size:25px; 
+  line-height: 2;
+  left: 20%;
+  width: 100%;
+
+}
+#logosa{
+width: 130%;
+position: relative;
+
+ }
+ #deco{
+width: 130%;
+margin-top: 50%;
+ }
+.navigation {
+ background-color:#0D263D; /*#E5E5E5;*/ 
+ height: auto;
+ margin-top: 2%;
+}
+
+.nav-item {
+  text-decoration-color: red;
+  font-size: 18px;
+
+}
+
+
+
+/* responsivite */
+
+@media   (min-width:940px) and (max-width:1150px)  
+{  
+#logosa{
+width: 200%;
+position: relative;
+margin-left: -100%;
+margin-top: -30%;
+
+ }
+ #deco{
+width: 200%;
+position: relative;
+ margin-top: 40%;
+ margin-left: 10%;
+ }
+ .haut {
+  background-color:#0D263D;
+    height: 65px;
+    width: 100%;
+    margin-top: 0%;
+    margin-left: -2%;
+}
+
+ .haut span {
+  position: relative;
+  color: #fff;
+  font-weight: bold;
+  font-size:20px; 
+  line-height: 2;
+  left: 10%;
+  width: 100%;
+  color: #fff;
+
+}
+}
+@media   (min-width:769px) and (max-width:940px)  
+{  
+#logosa{
+width: 300%;
+position: relative;
+margin-left: -140%;
+margin-top: -30%;
+
+ }
+ #deco{
+width: 300%;
+position: relative;
+ margin-top: 40%;
+ margin-left: 10%;
+ }
+ .haut {
+  background-color:#0D263D;
+    height: 60px;
+    width: 100%;
+    margin-top: 0%;
+    margin-left: -2%;
+}
+
+ .haut span {
+  position: relative;
+  color: #fff;
+  font-weight: bold;
+  font-size:20px; 
+  line-height: 2;
+  left: 10%;
+  width: 100%;
+  color: #fff;
+
+}
+}
+
+@media   (width:768px) {
+
+#logosa{
+width: 500%;
+position: relative;
+margin-left: -300%;
+margin-top: -20%;
+
+ }
+ #deco{
+width: 500%;
+position: relative;
+ margin-top: 40%;
+ margin-left: -150%;
+ }
+ .haut {
+  background-color:#0D263D;
+    height: 50px;
+    width: 100%;
+    }
+  .haut span {
+  position: relative;
+  color: #fff;
+  font-weight: bold;
+  font-size:20px; 
+  line-height: 2;
+  left: 10%;
+  width: 100%;
+  color: #fff;
+
+}
+
+}
+
+@media   (min-width:649px) and (max-width:767px)  
+{  
+#logosa{
+width: 130%;
+position: relative;
+margin-left: -50%;
+margin-top: -20%;
+
+ }
+ #deco{
+width: 110%;
+position: relative;
+ margin-top: 40%;
+ margin-left: 10%;
+ }
+ .haut {
+  background-color:#0D263D;
+    height: 70px;
+    width: 100%;
+    margin-top: 0%;
+    margin-left: -2%;
+}
+
+ .haut span {
+  position: relative;
+  color: #fff;
+  font-weight: bold;
+  font-size:15px; 
+  line-height: 2;
+  left: 10%;
+  width: 100%;
+  color: #fff;
+
+}
+.nav-item {
+
+  font-size: 15px;
+}
+}
+
+
+@media   (min-width:576px) and (max-width:649px)  
+{  
+#logosa{
+width: 130%;
+position: relative;
+margin-left: -80%;
+
+ }
+ #deco{
+width: 150%;
+position: relative;
+ margin-top: 2%;
+ margin-left: 20%;
+ }
+ .haut {
+  background-color:#0D263D;
+    height: 60px;
+    width: 100%;
+    margin-top: 0%;
+    margin-left: -2%;
+}
+
+ .haut span {
+  position: relative;
+  color: #fff;
+  font-weight: bold;
+  font-size:12px; 
+  line-height: 2;
+  left: 10%;
+  width: 100%;
+  color: #fff;
+
+}
+}
+
+/* smartphone */
+
+
+
+@media   (min-width: 320px) and (max-width : 576px)
+{  
+#logosa{
+width: 15%;
+position: relative;
+margin-left: -5%;
+
+ }
+ #deco{
+width: 15%;
+
+ margin-top: -50%;
+ margin-left: 90%;
+ }
+ .haut {
+  background-color:#0D263D;
+    height: 60px;
+    width: 70%;
+    margin-top: -25%;
+    margin-left: 15%;
+}
+
+ .haut span {
+  position: relative;
+  color: #fff;
+  font-weight: bold;
+  font-size:11px; 
+  line-height: 2;
+  left: 10%;
+  width: 100%;
+
+}
+}
