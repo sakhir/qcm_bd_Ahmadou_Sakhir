@@ -51,8 +51,8 @@ background-image:url("../images/bgim.jpg") ;
 }
 .container {
   background-color: white;
-  height: 625px;
-  width: 80%;
+  height: 700px;
+  width: 90%;
 
 }
 .gauche {
@@ -72,18 +72,18 @@ background-image:url("../images/bgim.jpg") ;
 .arc{
  background-color:#fff;
  height:260px;
-position: relative;
-margin-top: -65%;
-margin-left: -52.5%;
-width: 45%;
+position: absolute;
+margin-top: -90%;
+margin-left: 1%;
+width: 88%;
 border-top-left-radius: 50%;
 border-top-right-radius: 50%;
 }
 #logosa{
-width: 35%;
-position: relative;
-margin-top: -60%;
-margin-left: -45%;
+width: 60%;
+position: absolute;
+margin-top: -90%;
+margin-left: 10%;
  }
 
 #av{
@@ -312,7 +312,7 @@ iframe {
 
 .inputf{
   font-family: Ubuntu-Bold;
-  font-size: 15px;
+  font-size: 17px;
   color: #1b3815;
   line-height: 1.2;
 margin-top: 10%;
@@ -406,10 +406,320 @@ margin-left: -10%;
 
 /*//////////////////////////////////////////////////////////////////
 [ Responsive ]*/
-@media (max-width: 576px) {
-  .login100-form {
+
+
+@media   (min-width:940px) and (max-width:1150px)  {
+ .container {
+  background-color: white;
+  height: 700px;
+  width: 90%;
+
+}
+#cont {
+
+background-image:url("../images/bgim.jpg") ; 
+ width: 100%;
+ height: auto; 
+ margin-top: 2%;
+  margin-left: 0.5%;
+/* margin:auto;*/
+ 
+}
+.gauche {
+ background-color:#0D263D;
+ height:600px;
+ 
+
+}
+.arc{
+ background-color:#fff;
+ height:350px;
+position: absolute;
+margin-top: -100%;
+margin-left: 1%;
+width: 88%;
+border-top-left-radius: 50%;
+border-top-right-radius: 50%;
+}
+#logosa{
+width: 70%;
+position: absolute;
+margin-top: -108%;
+margin-left: 10%;
+ }
+ .gauche span {
+  position: absolute;
+  color: #fff;
+  font-weight: bold;
+  font-size:25px; 
+  line-height: 8;
+  left: 7%;
+}
+
+.login100-form {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+ 
+}
+@media   (min-width:768px) and (max-width:940px)  {
+
+.container {
+  background-color: white;
+  height: 700px;
+  width: 90%;
+
+}
+#cont {
+
+background-image:url("../images/bgim.jpg") ; 
+ width: 100%;
+ height: auto; 
+ margin-top: 2%;
+  margin-left: 0.5%;
+/* margin:auto;*/
+ 
+}
+.gauche {
+ background-color:#0D263D;
+ height:600px;
+ 
+
+}
+.arc{
+ background-color:#fff;
+ height:300px;
+position: absolute;
+margin-top: -100%;
+margin-left: 1%;
+width: 84%;
+border-top-left-radius: 50%;
+border-top-right-radius: 50%;
+}
+#logosa{
+width: 70%;
+position: absolute;
+margin-top: -108%;
+margin-left: 10%;
+ }
+ .gauche span {
+  position: absolute;
+  color: #fff;
+  font-weight: bold;
+  font-size:25px; 
+  line-height: 10;
+  left: 2.5%;
+}
+
+.login100-form {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+.inputf{
+  font-family: Ubuntu-Bold;
+  font-size: 13px;
+  color: #1b3815;
+  line-height: 1.2;
+margin-top: 10%;
+margin-left: -20%;
+  position: relative;
+  display: block;
+  width: 130%;
+  height: 55px;
+
+  padding: 0 35px 0 35px;
+}
+
+}
+@media   (min-width:649px) and (max-width:767px)  
+{  
+
+.container {
+  background-color: white;
+  height: 800px;
+  width: 90%;
+
+}
+#cont {
+
+background-image:url("../images/bgim.jpg") ; 
+ width: 100%;
+ height: auto; 
+ margin-top: 2%;
+  margin-left: 0.5%;
+/* margin:auto;*/
+ 
+}
+.gauche {
+ background-color:#0D263D;
+ height:100px;
+ 
+
+}
+.arc{
+ background-color:#fff;
+ height:105px;
+position: absolute;
+margin-top: -20%;
+margin-left: 1%;
+width: 30%;
+border-top-right-radius: 50%;
+border-bottom-right-radius: 50%;
+
+}
+#logosa{
+width: 12%;
+position: absolute;
+margin-top: -20%;
+margin-left: 10%;
+ }
+ .gauche span {
+  position: absolute;
+  color: #fff;
+  font-weight: bold;
+  font-size:25px; 
+  line-height: 2;
+  left: 35%;
+}
+
+.login100-form {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+
+}
+@media   (min-width:576px) and (max-width:649px)  
+{  
+
+
+.container {
+  background-color: white;
+  height: auto;
+  width: 90%;
+
+}
+#cont {
+
+background-image:url("../images/bgim.jpg") ; 
+ width: 100%;
+ height: auto; 
+ margin-top: 2%;
+  margin-left: 0.5%;
+/* margin:auto;*/
+ 
+}
+.gauche {
+ background-color:#0D263D;
+ height:100px;
+ 
+
+}
+.arc{
+ background-color:#fff;
+ height:105px;
+position: absolute;
+margin-top: -21%;
+margin-left: 1%;
+width: 30%;
+border-top-right-radius: 50%;
+border-bottom-right-radius: 50%;
+
+}
+#logosa{
+width: 12%;
+position: absolute;
+margin-top: -22%;
+margin-left: 9%;
+ }
+ .gauche span {
+  position: absolute;
+  color: #fff;
+  font-weight: bold;
+  font-size:25px; 
+  line-height: 2;
+  left: 35%;
+}
+
+.login100-form {
     padding-left: 15px;
     padding-right: 15px;
   }
 }
+/* smartphone */
+
+
+
+@media   (min-width: 320px) and (max-width : 576px)
+{  
+
+.container {
+  background-color: white;
+  height: 800px;
+  width: 90%;
+
+}
+#cont {
+
+background-image:url("../images/bgim.jpg") ; 
+ width: 100%;
+ height: auto; 
+ margin-top: 2%;
+  margin-left: 0.5%;
+/* margin:auto;*/
+ 
+}
+.gauche {
+ background-color:#0D263D;
+ height:100px;
+ 
+
+}
+.arc{
+ background-color:#fff;
+ height:105px;
+position: absolute;
+margin-top: -22%;
+margin-left: 1%;
+width: 30%;
+border-top-right-radius: 50%;
+border-bottom-right-radius: 50%;
+
+}
+#logosa{
+width: 14%;
+position: absolute;
+margin-top: -23%;
+margin-left: 7%;
+ }
+ .gauche span {
+  position: absolute;
+  color: #fff;
+  font-weight: bold;
+  font-size:25px; 
+  line-height: 2;
+  left: 35%;
+}
+
+.login100-form {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+.inputf{
+  font-family: Ubuntu-Bold;
+  font-size: 13px;
+  color: #1b3815;
+  line-height: 1.2;
+margin-top: 10%;
+margin-left: -25%;
+  position: relative;
+  display: block;
+  width: 130%;
+  height: 55px;
+
+  padding: 0 35px 0 35px;
+}
+}
+
   /* fin de la partie inscription */

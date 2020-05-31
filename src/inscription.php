@@ -12,11 +12,12 @@
        <div id="cont">
 			<div class="container ">
 			  <div class="row ">
-			    <div class="col-4 ">
+			    <div class=" col-xs-12 col-sm-12 col-md-4">
 			      <div class="gauche"> <span class="ml-2">  le plaisir de jouer </span></div>
-                   
+                     <div class="arc"> </div>
+		               <img id="logosa" src="../images/logo-QuizzSA.png">
 			    </div>
-			    <div class="col-8 ">
+			    <div class="col-xs-12 col-sm-12 col-md-8 ">
 			      	<div class="limiter">
 		<div class="container-login100">
 			<div class="wrap-login100">
@@ -25,8 +26,8 @@
 						S'inscrire pour tester votre niveau en culture generale
 					</span>
 					<div class="row">
-					   <div class="col-6 "> 
-		                    <label class="txt3">Prenom</label>
+					   <div class="col-6"> 
+		                    <label class="txt3 m-t-18">Prenom</label>
 							<div class="wrap-input100  m-b-16" >
 
 								<input class="input100" type="text" name="prenom" placeholder="prenom">
@@ -34,7 +35,7 @@
 							</div>
                       </div>
                       <div class="col-6 "> 
-		                    <label class="txt3">Nom</label>
+		                    <label class="txt3 m-t-18">Nom</label>
 							<div class="wrap-input100  m-b-16" >
 
 								<input class="input100" type="text" name="nom" placeholder="nom">
@@ -135,8 +136,7 @@
 		</div>
 		
 	</div>
-	<div class="arc"> </div>
-	<img id="logosa" src="../images/logo-QuizzSA.png">
+
 			    </div>
 			  </div>
 			  
