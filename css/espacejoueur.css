@@ -1,0 +1,404 @@
+
+
+/*//////////////////////////////////////////////////////////////////
+[ FONT ]*/
+
+@font-face {
+  font-family: Ubuntu-Regular;
+  src: url('../fonts/ubuntu/Ubuntu-Regular.ttf'); 
+}
+
+@font-face {
+  font-family: Ubuntu-Bold;
+  src: url('../fonts/ubuntu/Ubuntu-Bold.ttf'); 
+}
+
+@font-face {
+  font-family: JosefinSans-Bold;
+  src: url('../fonts/JosefinSans/JosefinSans-Bold.ttf'); 
+}
+
+
+
+/*//////////////////////////////////////////////////////////////////
+[ RESTYLE TAG ]*/
+
+* {
+  margin: 0px; 
+  padding: 0px; 
+  box-sizing: border-box;
+}
+
+
+body {
+  width: 100%;
+  background-color:#404040;
+  
+    height: auto;
+  font-family: Ubuntu-Regular, sans-serif;
+}
+
+#cont {
+
+background-image:url("../images/bgim.jpg") ; 
+ width: 70%;
+ height: auto;   margin-left: 15%;
+
+/* margin:auto;*/
+ 
+}
+.container-fluid {
+  background-color: white;
+  height: auto;
+  width: 90%;
+
+}
+.haut {
+  background-color:#0D263D;
+    height: 75px;
+}
+.haut span {
+  position: relative;
+  color: #fff;
+  font-weight: bold;
+  font-size:30px; 
+  line-height: 1.5;
+  left: 25%;
+  width: 100%;
+
+}
+#logosa{
+width: 130%;
+position: relative;
+
+ }
+ #deco{
+width: 130%;
+margin-top: 30%;
+ }
+#quit{
+width:120%;
+
+ margin-top: 35%;
+ margin-left: 5%;
+ }
+ .navig {
+ background-color:#E5E5E5; /*#E5E5E5;*/ 
+ height: 70px;
+ margin-top: 2%;
+}
+
+#avj {
+  width:100%;
+  margin-top: 50%;
+}
+#prn {
+  color: #0D263D;
+  font-weight: bold;
+  font-size: 20px;
+}
+#scr {
+  color: #0D263D;
+  font-weight: bold;
+  font-size: 20px;
+  margin-left: 60%;
+}
+.gauche {
+background-color: #0D263D;
+height: 300px;
+width: 90%;
+border-top-left-radius: 10%;
+border-top-right-radius: 10%;
+
+}
+.best {
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+
+.droite {
+background-color:#E5E5E5 ;
+height: 400px;
+width: 70%;
+margin-left: 5%;
+}
+
+#quest {
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 5%;
+  height: 100px;
+  background-color: white;
+}
+/*------------------------------------------------------------------
+[ Focus Input ]*/
+
+/* fin partie creer compte */
+/* responsivite */
+
+@media   (min-width:940px) and (max-width:1150px)  
+{  
+#logosa{
+width: 200%;
+position: relative;
+margin-left: -100%;
+margin-top: -30%;
+
+ }
+ #deco{
+width: 200%;
+position: relative;
+ margin-top: 40%;
+ margin-left: -5%;
+ }
+ #quit{
+width: 200%;
+
+ margin-top: 35%;
+ margin-left: -30%;
+ }
+ .haut {
+  background-color:#0D263D;
+    height: 65px;
+    width: 100%;
+    margin-top: 0%;
+    margin-left: -2%;
+}
+
+ .haut span {
+  position: relative;
+  color: #fff;
+  font-weight: bold;
+  font-size:40px; 
+  line-height: 1.5;
+  left: 15%;
+  width: 100%;
+  color: #fff;
+
+}
+}
+@media   (min-width:769px) and (max-width:940px)  
+{  
+#logosa{
+width: 300%;
+position: relative;
+margin-left: -140%;
+margin-top: -30%;
+
+ }
+ #deco{
+width: 300%;
+position: relative;
+ margin-top: 40%;
+ margin-left: -60%;
+ }
+ #quit{
+width: 300%;
+
+ margin-top: 35%;
+ margin-left: -90%;
+ }
+ .haut {
+  background-color:#0D263D;
+    height: 60px;
+    width: 100%;
+    margin-top: 0%;
+    margin-left: -2%;
+}
+
+ .haut span {
+  position: relative;
+  color: #fff;
+  font-weight: bold;
+  font-size:30px; 
+  line-height: 2;
+  left: 15%;
+  width: 100%;
+  color: #fff;
+
+}
+}
+
+@media   (width:768px) {
+
+#logosa{
+width: 500%;
+position: relative;
+margin-left: -210%;
+margin-top: -70%;
+
+ }
+ #deco{
+width: 400%;
+position: relative;
+ margin-top: 40%;
+ margin-left: -150%;
+ }
+ #quit{
+width: 300%;
+
+ margin-top: 35%;
+ margin-left: -60%;
+ }
+ .haut {
+  background-color:#0D263D;
+    height: 60px;
+    width: 100%;
+    }
+  .haut span {
+  position: relative;
+  color: #fff;
+  font-weight: bold;
+  font-size:30px; 
+  line-height: 2;
+  left: 15%;
+  width: 100%;
+  color: #fff;
+
+}
+
+}
+
+@media   (min-width:649px) and (max-width:767px)  
+{  
+#logosa{
+width: 130%;
+position: relative;
+margin-left: -50%;
+margin-top: -20%;
+
+ }
+ #deco{
+width: 90%;
+position: relative;
+ margin-top: 40%;
+ margin-left: 10%;
+ }
+ #quit{
+width: 100%;
+
+ margin-top: 35%;
+ margin-left: 40%;
+ }
+ .haut {
+  background-color:#0D263D;
+    height: 70px;
+    width: 100%;
+    margin-top: 0%;
+    margin-left: -2%;
+}
+
+ .haut span {
+  position: relative;
+  color: #fff;
+  font-weight: bold;
+  font-size:20px; 
+  line-height: 2;
+  left: 10%;
+  width: 100%;
+  color: #fff;
+
+}
+.nav-item {
+
+  font-size: 15px;
+}
+}
+
+
+@media   (min-width:576px) and (max-width:649px)  
+{  
+#logosa{
+width: 130%;
+position: relative;
+margin-left: -60%;
+
+ }
+ #deco{
+width: 150%;
+position: relative;
+ margin-top: 2%;
+ margin-left: 10%;
+ }
+ #quit{
+width: 150%;
+
+ margin-top: 2%;
+ margin-left: 40%;
+ }
+ .haut {
+  background-color:#0D263D;
+    height: 60px;
+    width: 120%;
+    margin-top: 0%;
+    margin-left: -2%;
+}
+
+ .haut span {
+  position: relative;
+  color: #fff;
+  font-weight: bold;
+  font-size:20px; 
+  line-height: 2;
+  left: 10%;
+  width: 100%;
+  color: #fff;
+
+}
+}
+
+/* smartphone */
+
+
+
+@media   (min-width: 320px) and (max-width : 575px)
+{  
+#logosa{
+width: 15%;
+position: relative;
+margin-left: -5%;
+
+ }
+ #deco{
+width: 12%;
+
+ margin-top: -50%;
+ margin-left: 90%;
+ }
+ #quit{
+width: 12%;
+
+ margin-top: -40%;
+ margin-left: 78%;
+ }
+ .haut {
+  background-color:#0D263D;
+    height: 70px;
+    width: 60%;
+    margin-top: -25%;
+    margin-left: 15%;
+}
+
+ .haut span {
+  position: relative;
+  color: #fff;
+  font-weight: bold;
+  font-size:20px; 
+  line-height: 2;
+  left: 10%;
+  width: 100%;
+
+}
+#cont {
+
+background-image:url("../images/bgim.jpg") ; 
+ width: 100%;
+ height: auto; 
+ margin-top: 2%;
+  margin-left: 1%;
+
+/* margin:auto;*/
+ 
+}
+}
