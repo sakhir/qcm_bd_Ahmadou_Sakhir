@@ -43,9 +43,34 @@
       <div class="row m-t-30 p-l-10">
          <div class="col-md-4 gauche">
             <span class="best"> Top 5 best score</span>
+            <table border="2" width="100%">
+              <tr style="width: 50%;height: auto;background-color: white;margin-left: -60%;">
+                <td>Diogaye </td>
+                <td>Sene </td>
+                <td><span style="">1200 pts</span>
+                <hr style="background-color:#50DAC2;height:4px;border-radius:25%;width:90%;">
+                </td>
+              </tr>
+              <tr style="width: 50%;height: auto;background-color: white;margin-left: -60%;">
+                <td>Diogaye </td>
+                <td>Sene </td>
+                <td><span style="">1200 pts</span>
+                <hr style="background-color:#50DAC2;height:4px;border-radius:25%;width:90%;">
+                </td>
+              </tr>
+              <tr style="width: 50%;height: auto;background-color: white;margin-left: -60%;">
+                <td>Diogaye </td>
+                <td>Sene </td>
+                <td><span style="">1200 pts</span>
+                <hr style="background-color:#50DAC2;height:4px;border-radius:25%;width:90%;">
+                </td>
+              </tr>
+            </table>
          </div>
           <div class="col-md-7 droite">
             <div id="quest"> </div>
+            <input  type="submit" id="pr"  name="precedent" value="Precedent" >
+            <input  type="submit" id="sv"  name="suivant" value="Suivant">
          </div>
       </div>
 
