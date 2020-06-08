@@ -1,5 +1,6 @@
 	$(document).ready(function(){
-
+    
+   
      $("#login").on('click',function()  {
       var log=$("#log").val();
       var pwd=$("#pwd").val();
@@ -42,4 +43,12 @@
 		       });
             }
      });
+
+
+    /* enlever login */
+    $("#connform input").focus(function()  {
+       $("#response").html(""); 	
+       });
+ /* fin enlever login */ 
+
 	});

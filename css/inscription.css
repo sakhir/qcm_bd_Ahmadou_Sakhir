@@ -50,7 +50,7 @@ background-image:url("../images/bgim.jpg") ;
 }
 .container {
   background-color: white;
-  height: 700px;
+  height: auto;
   width: 90%;
 
 }
@@ -212,6 +212,7 @@ iframe {
   line-height: 1.4;
   text-transform: uppercase;
   margin-left: 30%;
+  margin-top: 5%;
 }
 
 
