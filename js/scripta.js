@@ -2,7 +2,7 @@ $(document).ready(function(){
 
   
  /* traitement d inscription */ 
-     $("#register").on('click',function()  {
+     $("#registera").on('click',function()  {
 
 
       var statu=$("#status"); 
@@ -13,7 +13,7 @@ $(document).ready(function(){
       var mdp=$("#pawd").val();
       var cmdp=$("#confpwd").val();
            
-      var formD = $("#registerform");
+      var formD = $("#registeraform");
       var formdata=new FormData( formD[0]);
       
       
@@ -38,7 +38,7 @@ $("#pawd ,#confpwd").focus(function()  {
     
     //$("#registerform").serialize()
          $.ajax({
-                 url:'../data/reg.php',
+                 url:'../data/rega.php',
                 dataType:'json',
                  method:'POST',
                  data:formdata,
@@ -59,8 +59,8 @@ $("#pawd ,#confpwd").focus(function()  {
                   else {
 
                   statu.html('<p style="color:green;margin-left:15%;font-weight:bold;font-size:17px;">traitement en cours...</p> ').fadeOut(4000);
-                   alert("inscription reuissi");
-                    window.location="inscription.php" 
+                   alert("enregistrement effectue");
+                    window.location="creercompte.php" 
                   }
                  
                 },error:function () {
@@ -144,7 +144,7 @@ else if($("#pawd").val()!="" && $("#pawd").val()==$("#confpwd").val())  {$("#epw
 
 function check_login() {
     $.ajax({
-		             url:'../data/register.php',
+		             url:'../data/registera.php',
 		            dataType:'json',
 		             method:'POST',
 		             data: {'pseudo_check':$("#login").val()
